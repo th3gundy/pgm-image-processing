@@ -1,6 +1,6 @@
 /*****************************
 
-    Yunus YILDIRIM - 11011054
+    	Yunus YILDIRIM
 
 */////////////////////////////
 
@@ -39,7 +39,7 @@ void resimOku(char *filename, IMAGE *img){
     printf("%s\n",filename);
 
     if ((file = fopen(filename, "rb")) == NULL){
-       printf("Errör..!");
+       printf("ErrÃ¶r..!");
        exit(0);
     }
 
@@ -66,7 +66,7 @@ void resmeYaz(char *filename, IMAGE *img){
     printf("\n[+]Opening output file : %s\n", filename);
 
     if ((f = fopen(filename, "wb")) == NULL){
-       printf("Errör..!");
+       printf("ErrÃ¶r..!");
        exit(0);
     }
 
